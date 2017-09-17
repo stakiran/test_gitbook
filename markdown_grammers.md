@@ -233,6 +233,4 @@ key2 | value2-veryloooo<br>ooooooooooooooooooooooooo<br>oooooooooooooooooooong |
 
 ![myavatar](/folder/myavatar.jpg)
 
-以下は `![myavatar](/folder/myavatar.jpg)`
-
-[アップダウンリンク](folder/updown_link.md) も見てみてね。
+[アップダウンリンク](folder/updown_link) も見てみてね。

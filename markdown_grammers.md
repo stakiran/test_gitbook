@@ -219,3 +219,7 @@ key2 | value2-veryloooo<br>ooooooooooooooooooooooooo<br>oooooooooooooooooooong |
 以下は内部リンク:  `![myavatar](.myavatar.jpg)`
 
 ![myavatar](.myavatar.jpg)
+
+以下は内部リンク:  `![myavatar](./myavatar.jpg)`
+
+![myavatar](.myavatar.jpg)

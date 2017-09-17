@@ -1,6 +1,13 @@
 # github markdown grammers
 gitbook はどこまで対応しているかな？
 
+要約:
+
+- アンカーリンクは使えません
+- リストインデントは space 2 個単位
+- テーブルはセル中の文字数が少なくても横長いっぱいまで引き伸ばされる
+- コードハイライトは (GitHubほどじゃないが) 一応対応してる
+
 # 文字整形
 **太字** は `**太字**` と書き、 *イタリック* は `*イタリック*` と書く。 ~~打ち消し線~~ は `~~打ち消し線~~` と書く。
 
@@ -23,6 +30,14 @@ gitbook はどこまで対応しているかな？
   * サブ項目1
     * サブサブ項目
   * サブ項目2
+
+リスト例(ハイフン使用)
+
+- 項目1
+- 項目2
+  - サブ項目1
+    - サブサブ項目
+  - サブ項目2
 
 番号付きリストは行頭に `0.` や `1.` を書く。
 
@@ -188,3 +203,19 @@ key2 | value2-veryloooo<br>ooooooooooooooooooooooooo<br>oooooooooooooooooooong |
 
 <img src="IMAGE-URL" alt="ALTTEXT" width="96" height="96" />
 ```
+
+以下は内部リンク `![myavatar](myavatar.jpg)`
+
+![myavatar](myavatar.jpg)
+
+以下は外部リンク `![myavatar](https://avatars1.githubusercontent.com/u/23325839)`
+
+![myavatar](https://avatars1.githubusercontent.com/u/23325839)
+
+以下は内部リンク:  `![myavatar](/myavatar.jpg)`
+
+![myavatar](/myavatar.jpg)
+
+以下は内部リンク:  `![myavatar](.myavatar.jpg)`
+
+![myavatar](.myavatar.jpg)

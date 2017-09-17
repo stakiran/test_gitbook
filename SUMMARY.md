@@ -7,4 +7,4 @@
 * [アンカーリンクテスト](anchorlink.md)
   * [plain](anchorlink.md#plainanchor)
   * [custom](anchorlink.md#anchor1)
-* [markdown表記一通り書いてみた(markdown_grammers.md)
+* [markdown表記一通り書いてみた](markdown_grammers.md)

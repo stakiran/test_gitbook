@@ -233,4 +233,17 @@ key2 | value2-veryloooo<br>ooooooooooooooooooooooooo<br>oooooooooooooooooooong |
 
 ![myavatar](/folder/myavatar.jpg)
 
-[アップダウンリンク](folder/updown_link) も見てみてね。
+# 他ファイルにリンクするにはどうしたら？
+`[アップダウンリンク](folder/updown_link)`
+
+[アップダウンリンク](folder/updown_link)
+
+`[アップダウンリンク](folder/updown_link.html)`
+
+[アップダウンリンク](folder/updown_link.html)
+
+`[アップダウンリンク](folder/updown_link.md)`
+
+[アップダウンリンク](folder/updown_link.md)
+
+もしかして summary.md からリンクされてる分しか見えなかったりする？

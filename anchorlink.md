@@ -1,7 +1,8 @@
 # anchorlinktest
 - SUMMARY.md で `* (アンカーに飛ぶよ)[hoge.md#anchorname]`  こんなん書ける？
-  - [ ] plain 英文字のみ
-  - [ ] aタグ 英文字のみ
+  - OK → plain 英文字のみ
+  - NG → ~~aタグ 英文字のみ~~
+- 結論: aタグ使えません。日本語含む見出しにリンクさせるのはメンドーやなぁ……
 
 a
 

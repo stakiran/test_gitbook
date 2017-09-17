@@ -1,6 +1,6 @@
 # GitBook を試用してみた
 
-# 前提 <a name="condition">
+# 前提
 - Windows 10 Home
 
 # gitbook でアカウント作って設定する

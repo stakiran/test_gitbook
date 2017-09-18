@@ -10,8 +10,9 @@ gitbook はどこまで対応しているかな？
 - リンクについて
   - `[Caption](folder1/folder2/markdown_filename.md)`  ← どっちでもいいけどこっちがわかりやすいかと
   - `[Caption](folder1/folder2/markdown_filename.html)`
-  - `[Caption](/../markdown_filename.md)`
-  - **Markdownファイルについては SUMMARY からリンクされてるファイルのみアクセスできる(それ以外は 404 になる)**
+  - `[Caption](../markdown_filename.md)`
+  - 要点1: 先頭に `/` やら `./` やらは付けないこと
+  - 要点2: mdファイル(book上ではhtmlになる)へのリンクは**SUMMARY からリンクされてるファイルのみ** 有効
 
 # 文字整形
 **太字** は `**太字**` と書き、 *イタリック* は `*イタリック*` と書く。 ~~打ち消し線~~ は `~~打ち消し線~~` と書く。

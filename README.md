@@ -1,7 +1,7 @@
 # test_gitbook
 gitbook.com のテスト。
 
-- [GitBook サンプル](https://stakiran.gitbooks.io/testbook_from_github/content/)
+- [GitBook サンプル](https://stakiran.gitbooks.io/testbook_from_github/)
 - [GitHub リポジトリ](https://github.com/stakiran/test_gitbook)
 - [ビルドステータス](https://www.gitbook.com/book/stakiran/testbook_from_github/activity) 要ログイン
 

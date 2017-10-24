@@ -3,14 +3,18 @@
 # 前提
 - Windows 10 Home
 
-# gitbook でアカウント作って設定する
-- https://www.gitbook.com/ にアクセスして、github アカウントでサインインするする
+# gitbook でアカウント作って設定する（手順一部うろ覚え）
+- https://www.gitbook.com/ にアクセスして、github アカウントでサインインする
+- github 上で、gitbook へのアクセス権を付与する
+  - この時どの repo を gitbook から見えるようにするか設定できるはず(Repository access)
+  - 「All repositories」がてっとり早いが、不安なら「Only select repositories」にて必要な repo だけ指定する
 - gitbook から連携先候補となる github repo を登録する
   - 連携したい github repo を github でテキトーに作る(仮に bookrepo と名付ける)
   - gitbook 側で settings > github > install github integration により、作った repo を追加
 - 新しく book をつくる
   - 初回時は https://www.gitbook.com/@stakiran/settings/github の create a book from github から bookrepo を選んで new book する
   - 初回以外の時は https://www.gitbook.com/@stakiran/dashboard の New Book からいったん book を作った後、settings > github から bookrepo と sync させる
+    - ここで [sync error](https://help.gitbook.com/github/how-can-i-resolve-github-sync-errors.html) が出る時があるが、GitHub 側のボタンをクリックする（GitHub Repo 側を使って Sync が実行される。この辺よーわからん）
 
 # gitbook コマンドを入れる
 gitbook のプロジェクト構成（どんなファイルをどんなフォーマットで用意してリポジトリに push すればええの？）がわからんので、その辺をラップしてる gitbook コマンドを使うことにした。
